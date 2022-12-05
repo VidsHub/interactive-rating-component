@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+:root {
+    --body_color: hsl(26, 33%, 91%);
+    --light_gray: hsl(217, 12%, 63%);
+    --medium_gray: hsl(216, 12%, 54%);
+    --dark_blue: hsl(213, 20%, 18%);
+    --very_dark_blue: hsl(216, 12%, 8%);
+    --white: hsl(0, 0%, 100%);
+    --black: hsl(0, 0%, 0%);
+    --orange: hsl(25, 97%, 53%);
+    --gray: hsl(150, 9%, 13%);
+}
+body {
+    min-height: 100vh;
+    background-color: var(--very_dark_blue);
+    color: var(--white);
+    font-family: 'Overpass', sans-serif;
+    display: grid;
+    place-content: center;
+    padding-inline: 1.5rem;
+}
+#star {
+    background-color: var(--gray);
+    padding: 0.6rem 0.7rem;
+    border-radius: 50%;
+}
+h1 {
+    font-size: 20px;
+    margin: 0.5rem 0;
+    font-weight: 700;
+}
+.rate, .response {
+    background-color: var(--dark_blue);
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 23rem;
+}
+.response {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+p {
+    font-size: 15px;
+}
+.rating {
+    background-color: var(--gray);
+    border-radius: 50%;
+    display: inline-block;
+    padding: 0.6rem 0.8rem;
+    margin-right: 1.1rem;
+    font-weight: 400;
+    margin-top: 0.5rem;
+    cursor: pointer;
+}
+button {
+    margin: 0.5rem 0 0 0.2rem;
+    width: 90%;
+    background-color: var(--white);
+    color: var(--orange);
+    padding: 0.5rem;
+    border-radius: 1rem;
+    text-transform: uppercase;
+}
+ .rating:hover {
+    background-color: var(--light_gray);
+}
+.rating:active {
+    background-color: var(--orange);
+}
+#star {
+    color: var(--white);
+}
+#star_value {
+    padding: 0.2rem;
+}
+.result {
+    color: var(--orange);
+    background-color: var(--gray);
+    margin: 1rem 0;
+    padding: 0.5rem;
+    border-radius: 0.8rem;
+}
+.message {
+    text-align: center;
+}
+.attribution { font-size: 11px; text-align: center; padding-top: 1rem;}
+    .attribution a { color: hsl(228, 45%, 44%); }
+@media (max-width: 375px) {
+    .rate, .response {
+        width: 100%;
+    }
+}
