@@ -14,8 +14,6 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
 
 ## Overview
 
@@ -34,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/responsive-interactive-rating-component-hq_SYC0YrU)
+- Live Site URL: [Live site URL](https://vidshub.github.io/interactive-rating-component/)
 
 ## My process
 
@@ -64,6 +62,6 @@ some very valuable resources were stackoverflow and other google sites that help
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/vidshub)
+- Website - [Interactive Rating Component](https://vidshub.github.io/interactive-rating-component/)
+- Frontend Mentor - [@vidshub](https://www.frontendmentor.io/profile/vidshub)
 
