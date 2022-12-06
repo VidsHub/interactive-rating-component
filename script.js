@@ -1,6 +1,10 @@
 let rate = 0;
 function selectedRating()
 {
+    if (rate==0) {
+        alert("Please select a rating");
+        return;
+    }
     document.querySelectorAll(".rate").forEach(a=>a.style.display = "none");
     document.querySelectorAll(".response").forEach(a=>a.style.display = "flex");
     let txt = document.getElementById('star_value');
